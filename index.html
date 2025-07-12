@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PraRoz - Web Design & Development Course</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <!-- Dark overlay -->
+        <div class="overlay"></div>
+
+        <!-- Content -->
+        <div class="content-wrapper">
+            <!-- Header -->
+            <header class="header">
+                <!-- Logo -->
+                <div class="logo">
+                    <span class="logo-text">PraRoz</span>
+                    <div class="logo-icon">
+                        <div class="logo-circle"></div>
+                    </div>
+                </div>
+
+                <!-- Navigation -->
+                <nav class="navigation">
+                    <a href="#" class="nav-link active">HOME</a>
+                    <a href="#" class="nav-link">ABOUT</a>
+                    <a href="#" class="nav-link">SERVICE</a>
+                    <a href="#" class="nav-link">DESIGN</a>
+                    <a href="#" class="nav-link">CONTACT</a>
+                </nav>
+
+                <!-- Search -->
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Type to Search" class="search-input">
+                    <button id="searchBtn" class="search-btn">Search</button>
+                </div>
+            </header>
+
+            <!-- Main Content -->
+            <main class="main-content">
+                <!-- Left Content -->
+                <div class="content-left">
+                    <h1 class="main-heading">
+                        Web Design &<br>
+                        <span class="highlight">Development</span><br>
+                        Course
+                    </h1>
+
+                    <p class="description">
+                        Web Design is a specialisation of the design stream They also use HTML, 
+                        CSS,WYSIWYG editing software, mark up validators etc., 
+                        to create design elements.
+                    </p>
+
+                    <button id="joinBtn" class="join-btn">JOIN US</button>
+                </div>
+
+                <!-- Right Content - Login Panel -->
+                <div class="content-right">
+                    <div class="login-panel">
+                        <!-- Login Header -->
+                        <div class="login-header">Login Here</div>
+
+                        <!-- Login Form -->
+                        <form id="loginForm" class="login-form">
+                            <input type="email" id="email" placeholder="Enter Email Here" class="form-input" required>
+                            <input type="password" id="password" placeholder="Enter Password Here" class="form-input" required>
+                            <button type="submit" class="login-btn">Login</button>
+                        </form>
+
+                        <!-- Sign up link -->
+                        <div class="signup-link">
+                            Don't have an account?<br>
+                            <a href="#" id="signupLink" class="signup-text">Sign up here</a>
+                        </div>
+
+                        <!-- Social Login -->
+                        <div class="social-login">
+                            <p class="social-text">Log in with</p>
+                            <div class="social-icons">
+                                <a href="#" class="social-icon" data-platform="facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="social-icon" data-platform="instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="social-icon" data-platform="twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="social-icon" data-platform="google">
+                                    <i class="fab fa-google"></i>
+                                </a>
+                                <a href="#" class="social-icon" data-platform="skype">
+                                    <i class="fab fa-skype"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
